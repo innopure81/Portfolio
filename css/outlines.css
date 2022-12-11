@@ -1,0 +1,12 @@
+.container {
+    border: 5px ridge;
+    border-color: rgba(215, 243, 103, 0.695)
+}
+.row {
+    border: 5px ridge;
+    border-color: rgba(215, 243, 103, 0.695)
+}
+.col {
+    border: 5px ridge;
+    border-color: rgba(215, 243, 103, 0.695)
+}
