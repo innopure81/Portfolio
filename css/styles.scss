@@ -1,3 +1,15 @@
+$color-primary:#25c967ec;
+$color-secondary: #227744ec;
+$color-pale:#bfe632;
+$color-mid:#13ca5fb3;
+$color-dark:#36b554;
+$color-light: #e3f3aa;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #4f803a;
+
+$body-font: "Quattrocento Sans", sans-serif; 
+$header-font: "Quattrocento Sans", sans-serif; 
+
 body{
     font-family: 'Quattrocento Sans', sans-serif;   
     background-color: #e3f3aa; 
@@ -9,17 +21,21 @@ h1, h2, h3{
     font-family: 'Quattrocento Sans', sans-serif;
 }
 h2{
-    color: #227744ec;
+    color: $color-secondary;
 }
-header h2{
-    color: #25c967ec;
-    font-size: 50px;
+header{
+    h2{
+        color: $color-dark;
+        font-size: 50px;
+    }
 }
-header h1{
-    font-size: 100px;
+header{
+    h1{
+        font-size: 100px;
+    }
 }
 .site-footer{
-    background-image: linear-gradient(#36b554, white);
+    background-image: linear-gradient($color-light, $color-dark);
     padding: 20px, 0;
 }
 .jumbotron{

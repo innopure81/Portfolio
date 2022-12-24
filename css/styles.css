@@ -12,14 +12,14 @@ h2 {
   color: #227744ec; }
 
 header h2 {
-  color: #25c967ec;
+  color: #36b554;
   font-size: 50px; }
 
 header h1 {
   font-size: 100px; }
 
 .site-footer {
-  background-image: linear-gradient(#36b554, white);
+  background-image: linear-gradient(#e3f3aa, #36b554);
   padding: 20px, 0; }
 
 .jumbotron {
